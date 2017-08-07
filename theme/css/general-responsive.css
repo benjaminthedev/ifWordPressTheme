@@ -731,6 +731,12 @@ body.logged-in .dark-menu.stickyNav {
 */
 }
 
+@media(min-width: 1200px){
+  .page-template-custom-disablement-insurance-quote .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
+      height: 510px;
+  }
+}
+
 @media (min-width: 2560px) {
   .newManWrapper.pushDown {
       width: 90% !important;
