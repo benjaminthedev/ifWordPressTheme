@@ -1,0 +1,3 @@
+[10-Jul-2017 05:27:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/insurancefocus/public_html/wp-content/themes/insurancefocus/index.php on line 1
+[10-Jul-2017 05:27:28 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/insurancefocus/public_html/wp-content/themes/insurancefocus/index.php on line 1
+[11-Jul-2017 05:14:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/insurancefocus/public_html/wp-content/themes/insurancefocus/index.php on line 1

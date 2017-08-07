@@ -1,0 +1,785 @@
+  /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+  a.topHeaderMailto{
+    display: none;
+  }
+
+  ul.social-icons{
+    margin: 0;
+  }
+
+  img.footer-section-one-lady {
+    display: none;
+}
+
+  img.header-logo {
+      width: 70%;
+  }
+
+  img.telephoneIconHeader {
+    display: none;
+  }
+.bp-phone {
+    font-size: 24px;
+    float: left;
+    margin: 0em !important;
+}
+
+
+.menu-first-menu-container,
+.telephone-number-header,
+.menu-third-menu-container,
+.image-hero.animated.fadeInRight.newImageAnimate {
+    display: none;
+}
+
+.custom-logos {
+    height: auto;
+    padding: 30px 0;
+}
+
+ul.logos li {
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    margin: 0px 134px;
+}
+
+.first-tabbed-section li.nav-item{
+  margin: 0px;
+}
+
+.nav-tabs .nav-item{
+  width: 100%;
+  display: block;
+}
+.first-tabbed-section ul.nav.nav-tabs {
+    margin-top: -10px;
+}
+ul.nav.nav-tabs {
+    display: block;
+}
+.first-tabbed-section{
+  background-image: none;
+  background-color: #fff;
+}
+
+li.nav-item img {
+    display: none;
+}
+
+img.icon-images {
+    display: none;
+}
+
+.landing-hero-two {
+    min-height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 90% 22%;
+}
+
+
+h1.heros{
+  padding-top: 50px;
+}
+
+p.big-Number {
+    font-size: 100px;
+    color: #25aae2;
+    margin-top: -10px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+footer{
+  margin-top: 40px;
+}
+
+.tab-pane img{
+      width: 40%;
+}
+
+.hero-two-wrapper h1 {
+    font-size: 30px;
+}
+
+.page-template-custom-income-protection-quote h1.text-center.heros,
+.page-template-custom-income-protection-quote h1.text-center.herosSeconds,
+.page-template-custom-trauma-protection-quote h1.text-center.heros,
+.page-template-custom-trauma-protection-quote h1.text-center.herosSeconds,
+.page-template-custom-disablement-insurance-quote h1.text-center.heros,
+.page-template-custom-disablement-insurance-quote h1.text-center.herosSeconds{
+font-size: 26px;
+}
+
+.newSections,
+.image-hero.animated.fadeInLeft.newImageAnimate.newGuyWrap,
+img.man-hero-left{
+  display: none;
+}
+
+.col-sm-12.left-contentBox, .col-sm-12.right-contentBox {
+    max-width: 100% !important;
+    flex: 0 0 50% !important;
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 100% !important;
+    -ms-flex: 0 0 50% !important;
+}
+.form-section-two-left, .form-section-two-left-second, .form-section-three-left {
+    background-color: #f0f0f0;
+    padding: 30px;
+    width: 98%;
+    float: left;
+    margin-bottom: 20px;
+    min-height: 250px;
+}
+
+.form-section-two-right, .form-section-two-right-second, .form-section-three-right {
+    background-color: #f0f0f0;
+    padding: 30px;
+    width: 98%;
+    float: right;
+    min-height: 250px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.nextBoxnewi {
+    width: 188%;
+    margin-left: -260px;
+}
+
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+  ul.social-icons{
+    margin: 0;
+  }
+
+  a.topHeaderMailto{
+    display: none;
+  }
+
+  .nextBoxnewi{
+    width: 150%;
+    margin-left: -130px;
+  }
+
+
+
+
+    img.logo {
+        width: 30% !important;
+    }
+
+    .menu-first-menu-container,
+    .telephone-number-header,
+    .menu-third-menu-container,
+    .image-hero.animated.fadeInRight.newImageAnimate {
+        display: none;
+    }
+
+    .custom-logos {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    ul.logos li {
+        list-style-type: none;
+        display: block;
+        width: 100%;
+        margin: 0px 134px;
+    }
+
+    .first-tabbed-section li.nav-item{
+      margin: 0px;
+    }
+
+    .nav-tabs .nav-item{
+      width: 100%;
+      display: block;
+    }
+    .first-tabbed-section ul.nav.nav-tabs {
+        margin-top: -10px;
+    }
+    ul.nav.nav-tabs {
+        display: block;
+    }
+    .first-tabbed-section{
+      background-image: none;
+      background-color: #fff;
+    }
+
+    li.nav-item img {
+        display: none;
+    }
+
+    img.icon-images {
+        display: none;
+    }
+
+    .landing-hero-two {
+        min-height: 580px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: 90% 22%;
+    }
+
+
+    h1.heros{
+      padding-top: 50px;
+    }
+
+    p.big-Number {
+        font-size: 100px;
+        color: #25aae2;
+        margin-top: -10px;
+        font-weight: bold;
+        margin-bottom: -10px;
+    }
+
+    footer{
+      margin-top: 40px;
+    }
+
+    .tab-pane img{
+          width: 40%;
+    }
+
+    .hero-two-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .page-template-custom-income-protection-quote h1.text-center.heros,
+    .page-template-custom-income-protection-quote h1.text-center.herosSeconds,
+    .page-template-custom-trauma-protection-quote h1.text-center.heros,
+    .page-template-custom-trauma-protection-quote h1.text-center.herosSeconds,
+    .page-template-custom-disablement-insurance-quote h1.text-center.heros,
+    .page-template-custom-disablement-insurance-quote h1.text-center.herosSeconds{
+    font-size: 26px;
+    }
+
+    .newSections,
+    .image-hero.animated.fadeInLeft.newImageAnimate.newGuyWrap,
+    img.man-hero-left{
+      display: none;
+    }
+
+    .col-sm-12.left-contentBox, .col-sm-12.right-contentBox {
+        max-width: 100% !important;
+        flex: 0 0 50% !important;
+        -webkit-box-flex: 0 !important;
+        -webkit-flex: 0 0 100% !important;
+        -ms-flex: 0 0 50% !important;
+    }
+    .form-section-two-left, .form-section-two-left-second, .form-section-three-left {
+        background-color: #f0f0f0;
+        padding: 30px;
+        width: 98%;
+        float: left;
+        margin-bottom: 20px;
+        min-height: 250px;
+    }
+
+    .form-section-two-right, .form-section-two-right-second, .form-section-three-right {
+        background-color: #f0f0f0;
+        padding: 30px;
+        width: 98%;
+        float: right;
+        min-height: 250px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    img.footer-section-one-lady {
+      display: none;
+    }
+
+    ul.logos {
+      display: none;
+    }
+
+    .white-box-hero.animated.fadeInLeft.newImageAnimate {
+    width: 230%;
+    }
+
+    img.mrRight {
+    display: none;
+    }
+
+    .white-box-hero.animated.fadeInRight.newImageAnimate.mr-auto,
+    .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
+    width: 170%;
+}
+
+}
+
+
+
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+
+  img.logo {
+      width: 30% !important;
+  }
+  a.topHeaderMailto{
+    display: none;
+  }
+
+  .menu-first-menu-container,
+  .telephone-number-header,
+  .menu-third-menu-container,
+  .image-hero.animated.fadeInRight.newImageAnimate {
+      display: none;
+  }
+
+  .custom-logos {
+      height: auto;
+      padding: 30px 0;
+  }
+
+  ul.logos li {
+      list-style-type: none;
+      display: block;
+      width: 100%;
+      margin: 0px 134px;
+  }
+
+  .first-tabbed-section li.nav-item{
+    margin: 0px;
+  }
+
+  .nav-tabs .nav-item{
+    width: 100%;
+    display: block;
+  }
+  .first-tabbed-section ul.nav.nav-tabs {
+      margin-top: -10px;
+  }
+  ul.nav.nav-tabs {
+      display: block;
+  }
+  .first-tabbed-section{
+    background-image: none;
+    background-color: #fff;
+  }
+
+  li.nav-item img {
+      display: none;
+  }
+
+  img.icon-images {
+      display: none;
+  }
+
+  .landing-hero-two {
+      min-height: 580px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-position: 90% 22%;
+  }
+
+
+  h1.heros{
+    padding-top: 50px;
+  }
+
+  p.big-Number {
+      font-size: 100px;
+      color: #25aae2;
+      margin-top: -10px;
+      font-weight: bold;
+      margin-bottom: -10px;
+  }
+
+  footer{
+    margin-top: 40px;
+  }
+
+  .tab-pane img{
+        width: 40%;
+  }
+
+  .hero-two-wrapper h1 {
+      font-size: 30px;
+  }
+
+  .page-template-custom-income-protection-quote h1.text-center.heros,
+  .page-template-custom-income-protection-quote h1.text-center.herosSeconds,
+  .page-template-custom-trauma-protection-quote h1.text-center.heros,
+  .page-template-custom-trauma-protection-quote h1.text-center.herosSeconds,
+  .page-template-custom-disablement-insurance-quote h1.text-center.heros,
+  .page-template-custom-disablement-insurance-quote h1.text-center.herosSeconds{
+  font-size: 26px;
+  }
+
+  .newSections,
+  .image-hero.animated.fadeInLeft.newImageAnimate.newGuyWrap,
+  img.man-hero-left{
+    display: none;
+  }
+
+  .col-sm-12.left-contentBox, .col-sm-12.right-contentBox {
+      max-width: 100% !important;
+      flex: 0 0 50% !important;
+      -webkit-box-flex: 0 !important;
+      -webkit-flex: 0 0 100% !important;
+      -ms-flex: 0 0 50% !important;
+  }
+  .form-section-two-left, .form-section-two-left-second, .form-section-three-left {
+      background-color: #f0f0f0;
+      padding: 30px;
+      width: 98%;
+      float: left;
+      margin-bottom: 20px;
+      min-height: 250px;
+  }
+
+  .form-section-two-right, .form-section-two-right-second, .form-section-three-right {
+      background-color: #f0f0f0;
+      padding: 30px;
+      width: 98%;
+      float: right;
+      min-height: 250px;
+      margin-bottom: 30px;
+      margin-right: 10px;
+  }
+
+  img.footer-section-one-lady {
+    display: none;
+  }
+
+  ul.logos {
+    display: none;
+  }
+
+  .white-box-hero.animated.fadeInLeft.newImageAnimate {
+  width: 230%;
+  }
+
+  img.mrRight {
+  display: none;
+  }
+
+  .white-box-hero.animated.fadeInRight.newImageAnimate.mr-auto,
+  .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
+  width: 170%;
+}
+
+}
+
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  img.logo {
+      width: 30% !important;
+  }
+
+  .menu-first-menu-container,
+  .telephone-number-header,
+  .menu-third-menu-container,
+  .image-hero.animated.fadeInRight.newImageAnimate {
+      display: none;
+  }
+
+
+  a.topHeaderMailto{
+    display: none;
+  }
+
+  .custom-logos {
+      height: auto;
+      padding: 30px 0;
+  }
+
+  ul.logos li {
+      list-style-type: none;
+      display: block;
+      width: 100%;
+      margin: 0px 134px;
+  }
+
+  .first-tabbed-section li.nav-item{
+    margin: 0px;
+  }
+
+  .nav-tabs .nav-item{
+    width: 100%;
+    display: block;
+  }
+  .first-tabbed-section ul.nav.nav-tabs {
+      margin-top: -10px;
+  }
+  ul.nav.nav-tabs {
+      display: block;
+  }
+  .first-tabbed-section{
+    background-image: none;
+    background-color: #fff;
+  }
+
+  li.nav-item img {
+      display: none;
+  }
+
+  img.icon-images {
+      display: none;
+  }
+
+  .landing-hero-two {
+      min-height: 580px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-position: 90% 22%;
+  }
+
+
+  h1.heros{
+    padding-top: 50px;
+  }
+
+  p.big-Number {
+      font-size: 100px;
+      color: #25aae2;
+      margin-top: -10px;
+      font-weight: bold;
+      margin-bottom: -10px;
+  }
+
+  footer{
+    margin-top: 40px;
+  }
+
+  .tab-pane img{
+        width: 40%;
+  }
+
+  .hero-two-wrapper h1 {
+      font-size: 30px;
+  }
+
+  .page-template-custom-income-protection-quote h1.text-center.heros,
+  .page-template-custom-income-protection-quote h1.text-center.herosSeconds,
+  .page-template-custom-trauma-protection-quote h1.text-center.heros,
+  .page-template-custom-trauma-protection-quote h1.text-center.herosSeconds,
+  .page-template-custom-disablement-insurance-quote h1.text-center.heros,
+  .page-template-custom-disablement-insurance-quote h1.text-center.herosSeconds{
+  font-size: 26px;
+  }
+
+  .newSections,
+  .image-hero.animated.fadeInLeft.newImageAnimate.newGuyWrap,
+  img.man-hero-left{
+    display: none;
+  }
+
+  .col-sm-12.left-contentBox, .col-sm-12.right-contentBox {
+      max-width: 100% !important;
+      flex: 0 0 50% !important;
+      -webkit-box-flex: 0 !important;
+      -webkit-flex: 0 0 100% !important;
+      -ms-flex: 0 0 50% !important;
+  }
+  .form-section-two-left, .form-section-two-left-second, .form-section-three-left {
+      background-color: #f0f0f0;
+      padding: 30px;
+      width: 98%;
+      float: left;
+      margin-bottom: 20px;
+      min-height: 250px;
+  }
+
+  .form-section-two-right, .form-section-two-right-second, .form-section-three-right {
+      background-color: #f0f0f0;
+      padding: 30px;
+      width: 98%;
+      float: right;
+      min-height: 250px;
+      margin-bottom: 30px;
+      margin-right: 10px;
+  }
+
+  img.footer-section-one-lady {
+    display: none;
+  }
+
+  ul.logos {
+    display: none;
+  }
+
+  .white-box-hero.animated.fadeInLeft.newImageAnimate {
+  width: 230%;
+  }
+
+  img.mrRight {
+  display: none;
+  }
+
+  .white-box-hero.animated.fadeInRight.newImageAnimate.mr-auto,
+  .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
+  width: 170%;
+}
+
+
+}
+
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  ul.social-icons {
+      margin-left: -40px;
+  }
+
+  .nextBoxnewi{
+    width: 110%;
+  }
+
+  img.footer-section-one-lady {
+    width: 74%;
+    margin-top: 264px;
+    position: absolute;
+}
+
+.dark-menu.stickyNav,
+.menu-first-menu-container.new-end,
+img.telephoneIconHeader.stickyImg,
+.bp-phone.stickyNumber,
+.menu-third-menu-container,
+.bp-phone,
+img.telephoneIconHeader{
+    display: none;
+}
+
+
+ }
+
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .nextBoxnewi{
+    width: 80%;
+  }
+
+  img.footer-section-one-lady {
+    width: 74%;
+    margin-top: 134px;
+    position: absolute;
+}
+ }
+
+@media screen and (max-width: 1000px){
+
+button#responsive-menu-button {
+    display: inline-block;
+     transition: none;
+}
+
+body.logged-in .dark-menu.stickyNav {
+    position: fixed;
+    top: 130px;
+    z-index: 999999;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.dark-menu.stickyNav {
+    position: fixed;
+    top: 100px;
+    z-index: 999999;
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) {
+
+  .container {
+      width: 1240px !important;
+      max-width: 100%;
+  }
+
+
+*/
+}
+
+@media (min-width: 2560px) {
+  .newManWrapper.pushDown {
+      width: 90% !important;
+      margin-top: 184px;
+      position: absolute;
+  }
+
+  .page-template-custom-income-protection-quote .col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-1.offset-lg-1.offset-xl-1 {
+    margin-left: 680px;
+  }
+
+  /*.page-template-custom-life-insurance-quote .newWomanWrappers.pushDowns {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: -80px;
+    z-index: 9999;
+}*/
+
+  .page-template-custom-life-insurance-quote .image-hero.animated.fadeInLeft.newImageAnimate.newGuyWrap {
+    max-width: 60%;
+    margin: 10px 0px 0 210px;
+    display: block;
+    position: relative;
+}
+
+.newSections{
+  background-position: 0% 0%;
+}
+
+.page-template-custom-disablement-insurance-quote .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
+    height: 510px;
+}
+.dark-menu.stickyNav {
+    position: fixed;
+    /*top: 130px;*/
+    top: 67px;
+    z-index: 999999;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.newWomanWrappers.pushDowns {
+  position: absolute;
+  margin-top: 142px;
+  margin-right: 0px;
+  z-index: 9999;
+  width: 200%;
+  margin-left: 29px !important;
+}
+
+
+}

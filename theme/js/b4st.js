@@ -1,0 +1,200 @@
+(function ($) {
+
+	'use strict';
+
+	$(document).ready(function() {
+
+		//Turd
+		//$("li#field_1_10").insertAfter(".gform_footer");
+		$("li.gchoice_1_10_1").insertAfter("footer .gform_footer");
+
+
+
+		// Comments
+		$('.commentlist li').addClass('card');
+		$('.comment-reply-link').addClass('btn btn-secondary');
+
+		// Forms
+		$('select, input[type=text], input[type=email], input[type=password], textarea').addClass('form-control');
+		$('input[type=submit]').addClass('btn btn-primary');
+
+    // Pagination fix for ellipsis
+    $('.pagination .dots').addClass('page-link').parent().addClass('disabled');
+
+		// You can put your own code in here
+
+		//Makes a perfect dropdown
+		$('ul#menu-main-navigation li.dropdown').hover(function() {
+		  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+		}, function() {
+		  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+
+
+		// $('li.nav-item .nav-link:first').addClass('active');
+
+		//Opens first tab!
+		 $('.panel-collapse.in.collapse:first').addClass('show');
+		 //$('.newPanel.panel-collapse.in.collapse:first').addClass('show');
+
+
+//Button
+		 $(".scroll").click(function() {
+		    $('html, body').animate({
+		        scrollTop: $("#gform_fields_1").offset().top
+		    }, 2000);
+		});
+
+//Fun Forms!!
+
+$(".step_one_next").click(function(){
+		//console.log('step_one_next');
+    $("li#field_3_1, li#field_3_3, li#field_3_3, li#field_3_19, .step_one_next, .left-contentBox, .h-one, .form-section-one").hide();
+		$("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_13, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-left, .form-section-two-right, .form-section-two-left-second, .form-section-two-right-second").show();
+		$(".col-sm-12.right-contentBox").addClass('longer');
+		$('.circle.one').removeClass('active');
+		$('.circle.one').addClass('visited');
+		$('.circle.two').addClass('active');
+		$('.twoText').addClass('activeText');
+		$( '<h2 class="heavy"><span class="blue">Basic</span> information</h2>' ).insertBefore( ".form-section-two-left" );
+});
+
+
+
+
+$(".step_two_next").click(function(){
+		//console.log('step_one_next');
+    $("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-left, .form-section-two-right, .form-section-two-left-second, .form-section-two-right-second").hide();
+		$(" li#field_3_18, li#field_3_20, .step_three_next, input#gform_submit_button_3, .h-three, .form-section-three-left, .form-section-three-right").show();
+		$('.circle.two').removeClass('active');
+		$('.circle.two').addClass('visited');
+
+		$('.circle.thee').addClass('active');
+		$('.circle.three').addClass('visited');
+		$('.threeText').addClass('activeText');
+		$('.heavy').hide();
+		$( '<h2 class="heavyNew"><span class="blue">Pick your</span> insurance</h2>' ).insertBefore( ".form-section-three-left" );
+
+
+});
+
+
+
+
+
+//Forms section one
+$( "li#field_3_1, li#field_3_3, li#field_3_19, .step_one_next" ).wrapAll( "<div class='form-section-one' />");
+//$( "<p>Test</p>" ).insertBefore( ".form-section-one" );
+$( '<h2><span class="blue">About</span> You</h2>' ).insertBefore( "li#field_3_1" );
+
+
+
+
+
+//
+
+//Form section two
+$( "li#field_3_6, li#field_3_7, li#field_3_8" ).wrapAll( "<div class='form-section-two-left' />");
+
+//Form section two
+$( "li#field_3_15" ).wrapAll( "<div class='form-section-two-right' />");
+$( '<h5>Date of birth</h5>' ).insertBefore( "li#field_3_6" );
+$('li#field_3_6').append('<div class="text-center dobIN">DD</div>');
+$('li#field_3_7').append('<div class="text-center dobIN">MM</div>');
+$('li#field_3_8').append('<div class="text-center dobIN">YYYY</div>');
+
+//Form section two - second
+$( "li#field_3_17" ).wrapAll( "<div class='form-section-two-left-second' />");
+
+//Form section two
+$( "li#field_3_12, li#field_3_13" ).wrapAll( "<div class='form-section-two-right-second' />");
+
+$(".form-section-two-right").after('<div class="clearfix"></div>');
+
+
+// Form Section Three left
+
+$( "li#field_3_20" ).wrapAll( "<div class='form-section-three-left' />");
+
+// Form Section Three right
+$( "li#field_3_18, input#gform_submit_button_3" ).wrapAll( "<div class='form-section-three-right' />");
+
+$("a.small-logo").hide();
+
+
+$(function(){
+ var shrinkHeader = 160;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('header.main').addClass('shrink');
+					 //console.log("de");
+        }
+        else {
+            $('header.main').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+    }
+});
+
+
+
+//Nav stick
+// $(window).scroll(function(){
+//
+// 	if( $(window).scrollTop() > 160){
+//
+// 			$('.dark-menu').addClass('stickyNav');
+// 			$('header').addClass('mainHeaderFixed');
+// 			$(".menu-second-menu-container").hide();
+// 			$(".menu-first-menu-container").addClass('new-end');
+// 			$("a.main-logo").hide();
+// 			$("a.small-logo").show();
+// 			$(".bp-phone").addClass("stickyNumber");
+// 			$("img.telephoneIconHeader").addClass("stickyImg");
+// 			$("a.topHeaderMailto").addClass("stickyaa");
+// 	}	else	{
+// 			$('.dark-menu').removeClass('stickyNav');
+// 			$("a.topHeaderMailto").removeClass("stickyaa");
+// 			$('header').removeClass('mainHeaderFixed');
+// 			$(".menu-second-menu-container").show();
+// 			$(".menu-first-menu-container").removeClass('new-end');
+// 			$("a.main-logo").show();
+// 			$("a.small-logo").hide();
+// 			$(".bp-phone").removeClass("stickyNumber");
+// 			$("img.telephoneIconHeader").removeClass("stickyImg");
+// 	}
+
+
+	//Ticker text bloody thing.
+
+// 	(function($) {
+//   var duration = 2200;  // change this to change rotation time in milliseconds
+//   var current = 1;
+//   var tricker = $(".tricker");
+//   var height = tricker.height();
+//   var number = tricker.children().length;
+//   var first = tricker.children().first();
+//
+//   setInterval(function() {
+//     var interv = current * -1 * height;
+//     first.css("margin-top", interv + "px");
+//     if (current == number) {
+//       first.css("margin-top", "0px");
+//       current = 1;
+//     } else {
+//       current++;
+//     }
+//   }, duration);
+// })(jQuery);
+
+// });
+
+
+
+
+	});
+
+}(jQuery));
