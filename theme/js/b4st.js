@@ -6,9 +6,7 @@
 
 		//Turd
 		//$("li#field_1_10").insertAfter(".gform_footer");
-		$("li.gchoice_1_10_1").insertAfter("footer .gform_footer");
-
-
+		$("footer li.gchoice_1_10_1").insertAfter("footer .gform_footer");
 
 		// Comments
 		$('.commentlist li').addClass('card');
@@ -41,22 +39,32 @@
 //Button
 		 $(".scroll").click(function() {
 		    $('html, body').animate({
-		        scrollTop: $("#gform_fields_1").offset().top
+		        scrollTop: $("#gform_fields_1").offset().tops
 		    }, 2000);
 		});
+
+
+
+$(".panel-heading.newHeadingPanel").click(function(){
+	//console.log("youyuyyoyyouyuo");
+
+$('i.fa').toggleClass('yosel');
+});
+
 
 //Fun Forms!!
 
 $(".step_one_next").click(function(){
-		//console.log('step_one_next');
-    $("li#field_3_1, li#field_3_3, li#field_3_3, li#field_3_19, .step_one_next, .left-contentBox, .h-one, .form-section-one").hide();
-		$("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_13, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-left, .form-section-two-right, .form-section-two-left-second, .form-section-two-right-second").show();
-		$(".col-sm-12.right-contentBox").addClass('longer');
+		console.log('step_one_next');
+    $("li#field_3_1, li#field_3_3, li#field_3_3, li#field_3_19, .step_one_next, .h-one, .form-section-one").hide();
+		$("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_13, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-right").show();
+
 		$('.circle.one').removeClass('active');
 		$('.circle.one').addClass('visited');
 		$('.circle.two').addClass('active');
 		$('.twoText').addClass('activeText');
-		$( '<h2 class="heavy"><span class="blue">Basic</span> information</h2>' ).insertBefore( ".form-section-two-left" );
+		$( '<h2 class="heavy"><span class="blue">Basic</span> information</h2>' ).insertBefore( ".form-section-two-right" );
+
 });
 
 
@@ -78,50 +86,47 @@ $(".step_two_next").click(function(){
 
 });
 
-
-
-
-
 //Forms section one
 $( "li#field_3_1, li#field_3_3, li#field_3_19, .step_one_next" ).wrapAll( "<div class='form-section-one' />");
-//$( "<p>Test</p>" ).insertBefore( ".form-section-one" );
 $( '<h2><span class="blue">About</span> You</h2>' ).insertBefore( "li#field_3_1" );
 
-
-
-
-
-//
-
 //Form section two
-$( "li#field_3_6, li#field_3_7, li#field_3_8" ).wrapAll( "<div class='form-section-two-left' />");
-
-//Form section two
-$( "li#field_3_15" ).wrapAll( "<div class='form-section-two-right' />");
+$( "li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_15, li#field_3_17, li#field_3_12, li#field_3_13, li#field_3_20, li#field_3_18, .step_two_next" ).wrapAll( "<div class='form-section-two-right' />");
 $( '<h5>Date of birth</h5>' ).insertBefore( "li#field_3_6" );
 $('li#field_3_6').append('<div class="text-center dobIN">DD</div>');
 $('li#field_3_7').append('<div class="text-center dobIN">MM</div>');
 $('li#field_3_8').append('<div class="text-center dobIN">YYYY</div>');
 
+//Form section two
+// $( "li#field_3_15" ).wrapAll( "<div class='form-section-two-right' />");
+
+
+
 //Form section two - second
-$( "li#field_3_17" ).wrapAll( "<div class='form-section-two-left-second' />");
+// $( "li#field_3_17" ).wrapAll( "<div class='form-section-two-left-second' />");
 
 //Form section two
-$( "li#field_3_12, li#field_3_13" ).wrapAll( "<div class='form-section-two-right-second' />");
+//$( "li#field_3_12, li#field_3_13" ).wrapAll( "<div class='form-section-two-right-second' />");
 
-$(".form-section-two-right").after('<div class="clearfix"></div>');
+//$(".form-section-two-right").after('<div class="clearfix"></div>');
 
 
 // Form Section Three left
 
-$( "li#field_3_20" ).wrapAll( "<div class='form-section-three-left' />");
+//$( "li#field_3_20" ).wrapAll( "<div class='form-section-three-left' />");
 
 // Form Section Three right
-$( "li#field_3_18, input#gform_submit_button_3" ).wrapAll( "<div class='form-section-three-right' />");
+//$( "li#field_3_18, input#gform_submit_button_3" ).wrapAll( "<div class='form-section-three-right' />");
+//$("a.small-logo").hide();
 
-$("a.small-logo").hide();
 
 
+
+//End Forms
+
+
+
+//Sticky Nav
 $(function(){
  var shrinkHeader = 160;
   $(window).scroll(function() {
@@ -141,7 +146,7 @@ function getCurrentScroll() {
 
 
 
-//Nav stick
+ //Nav stick OLD
 // $(window).scroll(function(){
 //
 // 	if( $(window).scrollTop() > 160){
@@ -167,30 +172,6 @@ function getCurrentScroll() {
 // 			$("img.telephoneIconHeader").removeClass("stickyImg");
 // 	}
 
-
-	//Ticker text bloody thing.
-
-// 	(function($) {
-//   var duration = 2200;  // change this to change rotation time in milliseconds
-//   var current = 1;
-//   var tricker = $(".tricker");
-//   var height = tricker.height();
-//   var number = tricker.children().length;
-//   var first = tricker.children().first();
-//
-//   setInterval(function() {
-//     var interv = current * -1 * height;
-//     first.css("margin-top", interv + "px");
-//     if (current == number) {
-//       first.css("margin-top", "0px");
-//       current = 1;
-//     } else {
-//       current++;
-//     }
-//   }, duration);
-// })(jQuery);
-
-// });
 
 
 

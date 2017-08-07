@@ -174,7 +174,10 @@ Template Name: Home Page
 
 
               <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                  <img src="<?php the_field('image'); ?>" />
+                  <!-- <img src="<?php //the_field('image'); ?>" /> -->
+                  <div class="testimonial-snippet">
+                    "<?php the_field('testimonial_hightlight'); ?>"
+                  </div>
               </div>
 
 
@@ -206,7 +209,11 @@ Template Name: Home Page
 
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                 <img src="<?php the_field('image_second'); ?>" />
+                 <!-- <img src="<?php //the_field('image_second'); ?>" /> -->
+
+                 <div class="testimonial-snippet">
+                   "<?php the_field('testimonial_hightlight_second'); ?>"
+                 </div>
              </div>
 
 
@@ -235,7 +242,10 @@ Template Name: Home Page
 
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                 <img src="<?php the_field('image_third'); ?>" />
+                 <!-- <img src="<?php //the_field('image_third'); ?>" /> -->
+                 <div class="testimonial-snippet">
+                   "<?php the_field('testimonial_hightlight_third'); ?>"
+                 </div>
              </div>
 
 
@@ -267,7 +277,10 @@ Template Name: Home Page
 
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
-                 <img src="<?php the_field('image_fourth'); ?>" />
+                 <!-- <img src="<?php //the_field('image_fourth'); ?>" /> -->
+                 <div class="testimonial-snippet">
+                   "<?php the_field('testimonial_hightlight_four'); ?>"
+                 </div>
              </div>
 
 

@@ -107,7 +107,7 @@
 
       <div class="col-sm-6 mt-1">
 
-        <a class="jet" href="/disclaimer/" target="_blank">Disclaimer</a> | <a href="/sitemap.xml/" target="_blank">Site Map</a>
+        <a class="jet" href="/disclaimer/">Disclaimer</a> | <a href="/sitemap.xml/" target="_blank">Site Map</a>
 
     </div>
 

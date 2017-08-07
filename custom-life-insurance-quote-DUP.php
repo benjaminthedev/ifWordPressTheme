@@ -270,6 +270,7 @@ accordions
 
 
 
+
 <!-- accordion section Claims Process only
  start  -->
 
@@ -286,7 +287,7 @@ accordions
               the_row();
               ?>
               <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="heading_<?php echo $faq_b ?>">
+                  <div class="panel-heading newHeadingPanel" role="tab" id="heading_<?php echo $faq_b ?>">
 
                     <div class="container">
                       <div class="row">
@@ -303,9 +304,11 @@ accordions
                                 <i class="fa" aria-hidden="true"></i>  <?php the_sub_field('title', 19); ?>
                           </a>
                       </h4>
+
                     </div>
                     </div>
                     </div>
+
                   </div>
                   <div id="collapse_<?php echo $faq_b ?>" class="newPanel panel-collapse collapse <?php if ($faq_b == 99) echo 'in' ?>" role="tabpanel" aria-labelledby="heading_<?php echo $faq_b ?>">
                       <div class="panel-body">
@@ -318,14 +321,16 @@ accordions
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
                             <h2 class="blue"><?php the_sub_field('heading_1_left', 19); ?></h2>
                             <?php the_sub_field('text_box_1', 19); ?>
-                          </div>
 
-                          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <h2 class="blue"><?php the_sub_field('heading_2_right', 19); ?></h2>
                             <?php the_sub_field('text_box_2', 19); ?>
+                          </div>
+
+                          <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 ml-auto animated fadeInRight newImageAnimate">
+                            <img src="<?php the_sub_field('step_4_-_image_right_only', 19); ?>" class="mrRight"/>
                           </div>
                         </div>
 
@@ -363,15 +368,20 @@ accordions
 
                           <div class="clearfix"></div>
 
-                          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 offset-md-2">
+                          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 offset-md-2">
                             <?php the_sub_field('step_3_-_text_box_2_left', 19); ?>
-                          </div>
+                            <h2 class="blue">
+                              <?php the_sub_field('step_3_-_text_box_3_heading', 19); ?>
+                            </h2>
 
-
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <h2 class="blue"><?php the_sub_field('step_3_-_text_box_3_heading'); ?></h2>
                             <?php the_sub_field('step_3__-_text_box_3_right', 19); ?>
+
                           </div>
+
+
+                          <!-- <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"> -->
+
+                          <!-- </div> -->
                         </div>
 
 
@@ -393,9 +403,9 @@ accordions
 
 
 
-                          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ml-auto animated fadeInRight newImageAnimate">
-                            <img src="<?php the_sub_field('step_4_-_image_right_only', 19); ?>" class="mrRight"/>
-                          </div>
+                          <!-- <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ml-auto animated fadeInRight newImageAnimate">
+                            <img src="<?php the_sub_field('step_4_-_image_right_only'); ?>" class="mrRight"/>
+                          </div> -->
                         </div>
 
 
@@ -421,7 +431,6 @@ accordions
 
 
 <!-- accordion section end -->
-
 
 
 

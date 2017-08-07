@@ -45,16 +45,16 @@
 
 
 
-<!-- <div class="row">
+<div class="row">
 	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-	<?php //wp_nav_menu( array( 'theme_location' => 'first-menu' ) ); ?>
+	<?php wp_nav_menu( array( 'theme_location' => 'first-menu' ) ); ?>
 	</div>
 	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 		<div class="telephone-number-header">
-			<?php //wp_nav_menu( array( 'theme_location' => 'second-menu' ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'second-menu' ) ); ?>
 		</div>
 	</div>
-</div> -->
+</div>
 
 </div>
 
