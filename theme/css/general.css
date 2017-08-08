@@ -955,7 +955,7 @@ h4.panel-title {
 }
 
 .panel-collapse.collapse.show{
-  /*BOTTOM*/
+
   box-shadow: inset 0px -30px 44px -8px rgba(0, 17, 0, 0.20), inset 1px 20px 20px 0px rgba(0, 17, 0, 0.20);
   -moz-box-shadow: inset 0px -30px 44px -8px rgba(0, 17, 0, 0.20), inset 1px 20px 20px 0px rgba(0, 17, 0, 0.20);
   -webkit-box-shadow: inset -1px -20px 20px -8px rgba(0, 17, 0, 0.20), inset -1px 1px 0px 0px rgba(0, 17, 0, 0.20);
@@ -963,7 +963,7 @@ h4.panel-title {
 
 
 .newPanelProcess .panel-collapse.collapse.show{
-  /*BOTTOM*/
+  
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none !important;
