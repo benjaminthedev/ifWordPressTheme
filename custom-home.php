@@ -358,7 +358,7 @@ Template Name: Home Page
 
 
               <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                  <img src="<?php the_field('image_fifth'); ?>" />
+                  <!-- <img src="<?php //the_field('image_fifth'); ?>" /> -->
               </div>
 
 
@@ -390,7 +390,7 @@ Template Name: Home Page
 
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                 <img src="<?php the_field('image_sixth'); ?>" />
+                 <!-- <img src="<?php //the_field('image_sixth'); ?>" /> -->
              </div>
 
 
@@ -419,7 +419,7 @@ Template Name: Home Page
 
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                 <img src="<?php the_field('image_seventh'); ?>" />
+                 <!-- <img src="<?php //the_field('image_seventh'); ?>" /> -->
              </div>
 
 
@@ -451,7 +451,7 @@ Template Name: Home Page
 
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
-                 <img src="<?php the_field('image_eighth'); ?>" />
+                 <!-- <img src="<?php //the_field('image_eighth'); ?>" /> -->
              </div>
 
 

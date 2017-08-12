@@ -1,44 +1,3 @@
-/*-- Fonts --*/
-
-/*-- Colors
-
-Blue: #25aae2;
-
-Grey: #6e6e6e
-
-Secondary Blue: #25aae2
-
-Grey footer: #dcdcdc
-
-
-
-opacity: 0.5;
-
-transition: opacity .5s ease-out;
--moz-transition: opacity .5s ease-out;
--webkit-transition: opacity .5s ease-out;
--o-transition: opacity .5s ease-out;
-
---*/
-
-
-
-
-/*Logo*/
-
-/*img.above-tabs {
-    width: 100%;
-}
-
-img.icon-images {
-    width: 100%;
-}*/
-
-/*#text-slider{
-  width: 90%;
-  margin-top: 50px;
-}*/
-
 
 div#gform_wrapper_5 label {
     display: none;
@@ -74,7 +33,8 @@ input#gform_submit_button_5 {
 
 .start-content {
     /*height: 170px;*/
-    height: 230px;
+    /*height: 230px;*/
+    height:174px;
 }
 
 .page-template-full-quotation .footer-section-one{
@@ -151,17 +111,21 @@ body{
   overflow-y: scroll;
 }
 
+a.main-logo img {
+    margin-top: 10px;
+}
 
 img.header-logo{
   -webkit-transition: height 0.3s;
 -moz-transition: height 0.3s;
 transition: height 0.3s;
-height: 61px;
+/*height: 61px;*/
+height:50px;
 }
 
 
 header.main.shrink img.header-logo {
-    height:50px;
+    height:40px;
 }
 
 
@@ -186,7 +150,7 @@ header.main.shrink ul#menu-third-menu li {
 img.telephoneIconHeader {
     width: 42px;
     float: right;
-    margin-top: 9px;
+    /*margin-top: 9px;*/
     width: 6%;
 }
 
@@ -200,8 +164,8 @@ a.telephone-number-new{
   float: right;
   margin: 0em !important;
   font-weight: 700;
-  /*margin-top: -9px!important;*/
-  margin-top: 6px!important;
+
+  margin-top: -2px!important;
   color: #000;
 
 }
@@ -241,7 +205,6 @@ a.telephone-number-new-footer {
 .menu-first-menu-container {
     margin-left: -40px;
     float: left;
-    margin-top: 15px;
 }
 
 ul#menu-main-navigation li a{
@@ -261,6 +224,8 @@ ul#menu-first-menu li{
 
 ul#menu-first-menu li a{
   color: #25aae2;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 
@@ -268,11 +233,13 @@ ul#menu-first-menu li a{
 /*Second Menu*/
 .menu-second-menu-container {
     float: right;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 
 ul#menu-second-menu li a{
   color:#6e6e6e;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 ul#menu-second-menu li:nth-child(1){
@@ -296,7 +263,8 @@ ul#menu-second-menu li a{
 .dark-menu {
     background-color: #000;
     margin-bottom: -1px;
-    height: 75px;
+    /*height: 75px;*/
+    height: 56px;
     -webkit-transition: height 0.3s;
 -moz-transition: height 0.3s;
 transition: height 0.3s;
@@ -322,7 +290,7 @@ ul#menu-third-menu{
     list-style-type: none;
     display: inline-block;
     /* padding: 25px 19px; */
-    padding: 25px 0px;
+    padding: 16px 0px;
 }
 
 ul#menu-third-menu li:hover{
@@ -352,11 +320,12 @@ ul#menu-third-menu li:hover a{
 }*/
 
 ul#menu-third-menu li a {
-    padding: 15px 40px;
+    padding: 15px 50px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 900;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
 ul#menu-third-menu li.current-menu-item{
@@ -389,7 +358,7 @@ left: -70px;
 
 a.topHeaderMailto {
 position: absolute;
-top: 60px;
+top: 50px;
 right: 18px;
 /* background-color: #000; */
 color: #25AAE2;
@@ -475,7 +444,9 @@ background-position: 27% 0%;
   height: auto;
   background-color: #fff;
   margin-top: 70px;
-  padding: 25px;
+  /*padding: 25px;*/
+  min-width: 500px;
+  padding: 55px;
 
   /*border radius*/
   -webkit-border-radius: 20px;
@@ -726,8 +697,7 @@ a.nav-link.fourths.active{
 /*Stick Navs*/
 header.main {
     background-color: #fff;
-    /*height: 175px;*/
-    height: 230px;
+    height: 175px;
     position: fixed;
     width: 100%;
     z-index: 99999;
@@ -740,7 +710,7 @@ header.main {
 
 header.main.shrink {
     /*height: 142px;*/
-    height: 197px;
+    height: 160px;
 
 }
 
@@ -963,7 +933,7 @@ h4.panel-title {
 
 
 .newPanelProcess .panel-collapse.collapse.show{
-  
+
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none !important;
@@ -1060,12 +1030,12 @@ h1.herosSeconds {
 
 .page-template-custom-income-protection-quote img.woman-hero {
     margin-top: 100px;
-    margin-left: -50px;
+    /*margin-left: -50px;*/
 }
 
 img.woman-hero {
     margin-top: 40px;
-    margin-left: -50px;
+    /*margin-left: -50px;*/
 }
 
 .blue-background-ipq{
@@ -1091,8 +1061,15 @@ img.woman-hero {
 }
 
 .row.step2Row {
-    margin-top: 50px;
+    margin-top: 30px;
 }
+
+.row.step2Row:nth-child(2) {
+    /*margin-top: -50px;*/
+    /*just a fix as it was overlapping on a non contained box - i just drank some red wine and now I am feeling tipsy..... :-] good luck.....*/
+    margin-top: -10px;
+}
+
 
 #accordion_2 .blue{
   font-weight: 700;
@@ -1133,15 +1110,14 @@ img.mrRight {
     float: right;
     margin-right: -20px;
     margin-bottom: -22px;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
-
-/*.landing-hero-trauma-protection-quote {
-    min-height: 600px;
-    background-size: cover;
-    background-position: 0% 40%;
-    background-repeat: no-repeat;
-}*/
+.panel-body img.alignright2 {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: -22px;
+    /*margin-top: 50px;*/
+}
 
 .landing-hero-trauma-protection-quote {
     min-height: 614px;

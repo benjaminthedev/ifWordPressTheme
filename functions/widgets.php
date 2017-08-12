@@ -40,7 +40,7 @@ function b4st_widgets_init() {
     'name'            => __( 'Footer One', 'b4st' ),
     'id'              => 'footer-widget-area',
     'description'     => __( 'The footer first widget area', 'b4st' ),
-    'before_widget'   => '<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 pl-5">',
+    'before_widget'   => '<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">',
     'after_widget'    => '</div>',
     'before_title'    => '<h4>',
     'after_title'     => '</h4>',
