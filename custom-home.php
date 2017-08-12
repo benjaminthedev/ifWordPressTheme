@@ -10,10 +10,6 @@ Template Name: Home Page
  <div style="background-image: url('<?php the_field('slider_hero_background_image'); ?>');" class="landing-hero"/>
  <div class="container-fluid">
    <div class="row">
-
-
-
-
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 offset-md-1 offset-lg-1 offset-xl-1">
 
             <div class="white-box-hero animated fadeInLeft newImageAnimate">
