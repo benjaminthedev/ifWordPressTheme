@@ -4,8 +4,7 @@ Template Name: Home Page
 */
 
  get_header(); ?>
-
-
+ 
  <!-- Hero Area Start  -->
  <div style="background-image: url('<?php the_field('slider_hero_background_image'); ?>');" class="landing-hero"/>
  <div class="container-fluid">
