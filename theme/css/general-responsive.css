@@ -674,13 +674,7 @@ img.telephoneIconHeader.stickyImg,
 img.telephoneIconHeader{
     display: none;
 }
-
-
  }
-
-
-
-
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -748,13 +742,6 @@ body.logged-in .dark-menu.stickyNav {
     margin-left: 680px;
   }
 
-  /*.page-template-custom-life-insurance-quote .newWomanWrappers.pushDowns {
-    position: absolute;
-    margin-top: 0px;
-    margin-right: -80px;
-    z-index: 9999;
-}*/
-
   .page-template-custom-life-insurance-quote .image-hero.animated.fadeInLeft.newImageAnimate.newGuyWrap {
     max-width: 60%;
     margin: 10px 0px 0 210px;
@@ -772,7 +759,6 @@ body.logged-in .dark-menu.stickyNav {
 
 .dark-menu.stickyNav {
     position: fixed;
-    /*top: 130px;*/
     top: 67px;
     z-index: 999999;
     margin-left: 0px;
