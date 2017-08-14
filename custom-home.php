@@ -4,7 +4,7 @@ Template Name: Home Page
 */
 
  get_header(); ?>
- 
+
  <!-- Hero Area Start  -->
  <div style="background-image: url('<?php the_field('slider_hero_background_image'); ?>');" class="landing-hero"/>
  <div class="container-fluid">
@@ -273,6 +273,7 @@ Template Name: Home Page
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
                  <!-- <img src="<?php //the_field('image_fourth'); ?>" /> -->
+
                  <div class="testimonial-snippet">
                    "<?php the_field('testimonial_hightlight_four'); ?>"
                  </div>
@@ -354,18 +355,19 @@ Template Name: Home Page
 
               <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                   <!-- <img src="<?php //the_field('image_fifth'); ?>" /> -->
+                  <div id="feefo-service-review-carousel-widgetId" class="feefo-review-carousel-widget-service"></div>
               </div>
 
 
-              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 p-4">
+              <!-- <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 p-4">
                   <div class="testimonial-name">
-                    <?php the_field('testimonial_name_fifth'); ?>
+                    <?php //the_field('testimonial_name_fifth'); ?>
                   </div>
 
                   <div class="textimonial-snippet">
-                    <?php the_field('testimonial_text_fifth'); ?>
+                    <?php //the_field('testimonial_text_fifth'); ?>
                   </div>
-              </div>
+              </div> -->
 
             </div>
 

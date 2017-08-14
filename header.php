@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script type="text/javascript"src="https://api.feefo.com/api/javascript/insurance-focus"> </script>
+		<!-- <script type="text/javascript" src="https://api.feefo.com/api/javascript/insurance-focus" async></script> -->
 	<?php wp_head(); ?>
 </head>
 
@@ -15,10 +16,6 @@
 <header class="main">
 
 	<div class="container">
-
-
-
-
 
 <div class="row">
 	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
