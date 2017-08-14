@@ -510,7 +510,8 @@ a.standard-btn:hover{
 }*/
 
 .white-box-hero-stars-lis {
-        margin-left: 60px;
+        /*margin-left: 60px;*/
+        margin-left: 100px;
         margin-top: 10px;
 }
 
@@ -1878,6 +1879,7 @@ ul.social-icons li a img{
 ul.social-icons {
     margin-top: -110px;
     z-index: 9999;
+    margin-left: -25px;
 }
 
 

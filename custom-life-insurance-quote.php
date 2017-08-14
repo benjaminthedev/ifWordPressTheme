@@ -183,17 +183,6 @@ Template Name: Life Insurance Quote
 
 
 
-<!--
-
- 1, Set up counter
- 2, If counter is equal to 1
- 3, then show shit..
- 4, else do one..
-
-accordions
- sub step_arrow
- -->
-
 
 
 
@@ -258,10 +247,15 @@ accordions
 
 
 
+
+
+
 <!-- accordion section Claims Process only
  start  -->
 
 <div class="container-fluid p-0 newPanelProcess">
+
+  <!-- <div class="container-fluid p-0 newPanelProcess"> -->
 
   <div class="row">
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -274,11 +268,12 @@ accordions
               the_row();
               ?>
               <div class="panel panel-default">
+<div class="container">
                   <div class="panel-heading newHeadingPanel" role="tab" id="heading_<?php echo $faq_b ?>">
 
                     <div class="container">
                       <div class="row">
-                          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
 
                       <h4 class="panel-title">
                           <a class="<?php if ($faq_b != 99) echo 'collapsed' ?>" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse_<?php echo $faq_b ?>" aria-expanded="<?php
@@ -301,7 +296,7 @@ accordions
                       <div class="panel-body">
                         <div class="row">
                           <?php if( get_sub_field('step_arrow', 19) ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow', 19); ?></p>
                                 </div>
@@ -357,11 +352,11 @@ accordions
 
                           <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 offset-md-2">
                             <?php the_sub_field('step_3_-_text_box_2_left', 19); ?>
-                            <h2 class="blue">
-                              <?php the_sub_field('step_3_-_text_box_3_heading', 19); ?>
-                            </h2>
+                            <!-- <h2 class="blue"> -->
+                              <?php //the_sub_field('step_3_-_text_box_3_heading, 19'); ?>
+                            <!-- </h2> -->
 
-                            <?php the_sub_field('step_3__-_text_box_3_right', 19); ?>
+                            <?php //the_sub_field('step_3__-_text_box_3_right, 19'); ?>
 
                           </div>
 
@@ -400,6 +395,7 @@ accordions
 
                       </div>
                   </div>
+                </div>
               </div>
 
               <?php
@@ -418,6 +414,7 @@ accordions
 
 
 <!-- accordion section end -->
+
 
 
 

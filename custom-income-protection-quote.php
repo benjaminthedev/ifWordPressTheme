@@ -31,7 +31,7 @@ Template Name: Income Protection Quote
 
 
               <div class="row">
-                <div class="col-4 mx-auto">
+                <div class="col-6 mx-auto">
                   <div class="white-box-hero-stars">
                     <?php the_field('rating_box_image_stars'); ?>
                   </div>
@@ -348,11 +348,11 @@ Template Name: Income Protection Quote
 
                           <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 offset-md-2">
                             <?php the_sub_field('step_3_-_text_box_2_left'); ?>
-                            <h2 class="blue">
-                              <?php the_sub_field('step_3_-_text_box_3_heading'); ?>
-                            </h2>
+                            <!-- <h2 class="blue"> -->
+                              <?php //the_sub_field('step_3_-_text_box_3_heading'); ?>
+                            <!-- </h2> -->
 
-                            <?php the_sub_field('step_3__-_text_box_3_right'); ?>
+                            <?php //the_sub_field('step_3__-_text_box_3_right'); ?>
 
                           </div>
 

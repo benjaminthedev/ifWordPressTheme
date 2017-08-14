@@ -1,5 +1,18 @@
   /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
+.white-box-hero{
+      min-width: 300px;
+}
+
+.dark-menu {
+    display: none;
+}
+
+header.main{
+      height: 85px;
+          position: absolute;
+}
+
 
   a.topHeaderMailto{
     display: none;
@@ -160,6 +173,19 @@ img.man-hero-left{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
+
+  .white-box-hero{
+        min-width: 300px;
+  }
+
+  .dark-menu {
+      display: none;
+  }
+
+  header.main{
+        height: 85px;
+            position: absolute;
+  }
 
   ul.social-icons{
     margin: 0;
@@ -334,6 +360,19 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
+  .white-box-hero{
+        min-width: 300px;
+  }
+
+  .dark-menu {
+      display: none;
+  }
+
+  header.main{
+        height: 85px;
+            position: absolute;
+  }
+
 
   img.logo {
       width: 30% !important;
@@ -492,6 +531,20 @@ and (orientation : portrait) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
+
+  .white-box-hero{
+        min-width: 300px;
+  }
+
+  .dark-menu {
+      display: none;
+  }
+
+  header.main{
+        height: 85px;
+            position: absolute;
+  }
+
   img.logo {
       width: 30% !important;
   }
@@ -726,12 +779,26 @@ body.logged-in .dark-menu.stickyNav {
 }
 
 @media(min-width: 1200px){
+
   .page-template-custom-disablement-insurance-quote .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
       height: 510px;
   }
+
+
 }
 
 @media (min-width: 2560px) {
+
+  div#feefologohere {
+    margin-left: 80px;
+  }
+
+  .white-box-hero-stars-lis {
+    /* margin-left: 60px; */
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
   .newManWrapper.pushDown {
       width: 90% !important;
       margin-top: 184px;

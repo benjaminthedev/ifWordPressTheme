@@ -25,7 +25,7 @@ Template Name: Home Page
 
 
               <div class="row">
-                <div class="col-4 mx-auto">
+                <div class="col-6 mx-auto">
                   <div class="white-box-hero-stars">
                     <?php the_field('rating_box_image_stars'); ?>
                   </div>
@@ -344,7 +344,7 @@ Template Name: Home Page
          <div class="tab-content">
            <div role="tabpanel" class="tab-pane fade show active" id="fifth">
              <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
                <h3 class="section-heading-tab"><?php the_field('heading_fifth'); ?></h3>
 
                <div class="thin">
@@ -353,9 +353,10 @@ Template Name: Home Page
             </div>
 
 
-              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                   <!-- <img src="<?php //the_field('image_fifth'); ?>" /> -->
-                  <div id="feefo-service-review-carousel-widgetId" class="feefo-review-carousel-widget-service"></div>
+                  <?php include('fee.php'); ?>
+
               </div>
 
 
@@ -388,6 +389,7 @@ Template Name: Home Page
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                  <!-- <img src="<?php //the_field('image_sixth'); ?>" /> -->
+                 <?php include('fee.php'); ?>
              </div>
 
 
@@ -417,6 +419,7 @@ Template Name: Home Page
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                  <!-- <img src="<?php //the_field('image_seventh'); ?>" /> -->
+                 <?php include('fee.php'); ?>
              </div>
 
 
@@ -449,6 +452,7 @@ Template Name: Home Page
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
                  <!-- <img src="<?php //the_field('image_eighth'); ?>" /> -->
+                 <?php include('fee.php'); ?>
              </div>
 
 
@@ -468,10 +472,17 @@ Template Name: Home Page
 
 
           </div>
+
+
+
          </div>
+
+
        </div>
       </div>
 </div>
+
+
 
 
 <!-- end tabs 2 -->
