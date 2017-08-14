@@ -350,19 +350,27 @@ font-size: 14px;
 left: -70px;
 }*/
 
-a.topHeaderMailto {
+/*a.topHeaderMailto {
 position: absolute;
 top: 50px;
 right: 18px;
-/* background-color: #000; */
 color: #25AAE2;
-/* padding: 10px 20px; */
 font-size: 12px;
 letter-spacing: 0.04em;
-}
+}*/
 
-a.topHeaderMailto.stickyaa{
+/*a.topHeaderMailto.stickyaa{
   top: 40px;
+}*/
+
+a.topHeaderMailto {
+/*position: absolute;
+top: 50px;
+right: 18px;
+color: #25AAE2;
+font-size: 12px;
+letter-spacing: 0.04em;*/
+display: none;
 }
 
  /*Nav Tabs */
