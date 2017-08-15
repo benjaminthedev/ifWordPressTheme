@@ -52,12 +52,17 @@ li.gchoice_1_10_1 label {
 }
 
 .boxWhiteWrapper {
-    width: 50%;
-    /*background-color: green;*/
+    /*width: 50%;
     height: 300px;
     position: relative;
     left: 270px;
-    top: 100px;
+    top: 100px;*/
+
+    width: 60%;
+    /* background-color: green; */
+    position: relative;
+    left: 215px;
+    top: 70px;
 }
 
 .boxWhiteWrapper p{
@@ -445,21 +450,15 @@ background-position: 27% 0%;
   min-height: 200px;
   height: auto;
   background-color: #fff;
-  margin-top: 70px;
-  /*padding: 25px;*/
+  margin-top: 30px;
   min-width: 500px;
   padding: 55px;
-
-  /*border radius*/
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-
-
-  /*shadow*/
-  -webkit-box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.75);
-  box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.35);
+  box-shadow: -1px 3px 45px 0px rgba(0,0,0,0.35);
 }
 
 img.man-hero {
@@ -511,7 +510,7 @@ a.standard-btn:hover{
 
 .white-box-hero-stars-lis {
         /*margin-left: 60px;*/
-        margin-left: 100px;
+        margin-left: 130px;
         margin-top: 10px;
 }
 
