@@ -790,7 +790,7 @@ body.logged-in .dark-menu.stickyNav {
 @media (min-width: 2560px) {
 
   div#feefologohere {
-    margin-left: 80px;
+    margin-left: 110px;
   }
 
   .white-box-hero-stars-lis {
@@ -821,7 +821,15 @@ body.logged-in .dark-menu.stickyNav {
 }
 
 .page-template-custom-disablement-insurance-quote .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
-    height: 510px;
+  height: 510px;
+  flex: 0 0 40%;
+  max-width: 20%;
+  padding: 50px 60px;
+}
+
+.white-box-hero-stars {
+    width: 150%;
+    margin-left: -80px;
 }
 
 .dark-menu.stickyNav {
@@ -846,5 +854,14 @@ body.logged-in .dark-menu.stickyNav {
     margin-left: -50px;
 }
 
+
+.white-box-hero{
+  width:500px;
+  margin-left: 480px;
+}
+
+.page-template-custom-income-protection-quote .white-box-hero{
+  margin-left: 310px;
+}
 
 }
