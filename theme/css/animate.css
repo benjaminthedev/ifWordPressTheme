@@ -4,7 +4,7 @@
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2017 Daniel Eden
- */
+
 
 .animated {
   animation-duration: 1s;
@@ -66,7 +66,7 @@
   animation-name: flash;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 
 @keyframes pulse {
   from {
@@ -222,7 +222,7 @@
   animation-name: tada;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 
 @keyframes wobble {
   from {
@@ -1243,7 +1243,6 @@
   animation-name: jackInTheBox;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @keyframes rollIn {
   from {
@@ -1261,7 +1260,7 @@
   animation-name: rollIn;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 
 @keyframes rollOut {
   from {
@@ -1574,4 +1573,4 @@
 
 .slideOutUp {
   animation-name: slideOutUp;
-}
+}*/
