@@ -389,7 +389,8 @@ Template Name: Home Page
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                  <!-- <img src="<?php //the_field('image_sixth'); ?>" /> -->
-                 <?php include('fee.php'); ?>
+                 <?php //include('fee.php'); ?>
+                 <div id="feefo-service-review-carousel-widgetId" class="feefo-review-carousel-widget-service"></div>
              </div>
 
 
@@ -419,7 +420,9 @@ Template Name: Home Page
 
              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                  <!-- <img src="<?php //the_field('image_seventh'); ?>" /> -->
-                 <?php include('fee.php'); ?>
+                 <?php //include('fee.php'); ?>
+
+                 <div id="feefo-service-review-carousel-widgetId" class="feefo-review-carousel-widget-service"></div>
              </div>
 
 
