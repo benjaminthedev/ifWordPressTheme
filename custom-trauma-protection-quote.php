@@ -301,7 +301,7 @@ Template Name: Trauma Insurance Protect
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('heading_1_left', 19); ?></h2>
                             <?php the_sub_field('text_box_1', 19); ?>
 
@@ -318,14 +318,14 @@ Template Name: Trauma Insurance Protect
 
                         <div class="row step2Row">
                           <?php if( get_sub_field('step_arrow_2', 19) ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow_2', 19); ?></p>
                                 </div>
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('step_2_heading', 19); ?></h2>
                             <?php the_sub_field('text_box_1_copy', 19); ?>
                           </div>
@@ -334,14 +334,14 @@ Template Name: Trauma Insurance Protect
 
                         <div class="row step2Row">
                           <?php if( get_sub_field('step_arrow_3', 19) ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow_3', 19); ?></p>
                                 </div>
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('step_3_heading', 19); ?></h2>
                             <?php the_sub_field('step_3_-_text_box_one_long', 19); ?>
                           </div>
@@ -367,14 +367,14 @@ Template Name: Trauma Insurance Protect
 
                         <div class="row step2Row">
                           <?php if( get_sub_field('step_arrow_4', 19) ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow_4', 19); ?></p>
                                 </div>
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('step_4_heading', 19); ?></h2>
                             <?php the_sub_field('step_4_', 19); ?>
                           </div>

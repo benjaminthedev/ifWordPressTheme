@@ -299,7 +299,7 @@ Template Name: Income Protection Quote
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('heading_1_left'); ?></h2>
                             <?php the_sub_field('text_box_1'); ?>
 
@@ -307,23 +307,21 @@ Template Name: Income Protection Quote
                             <?php the_sub_field('text_box_2'); ?>
                           </div>
 
-                          <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 ml-auto animated fadeInRight newImageAnimate">
-                            <img src="<?php the_sub_field('step_4_-_image_right_only'); ?>" class="mrRight"/>
-                          </div>
+
                         </div>
 
 
 
                         <div class="row step2Row">
                           <?php if( get_sub_field('step_arrow_2') ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow_2'); ?></p>
                                 </div>
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('step_2_heading'); ?></h2>
                             <?php the_sub_field('text_box_1_copy'); ?>
                           </div>
@@ -332,14 +330,14 @@ Template Name: Income Protection Quote
 
                         <div class="row step2Row">
                           <?php if( get_sub_field('step_arrow_3') ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow_3'); ?></p>
                                 </div>
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('step_3_heading'); ?></h2>
                             <?php the_sub_field('step_3_-_text_box_one_long'); ?>
                           </div>
@@ -365,14 +363,14 @@ Template Name: Income Protection Quote
 
                         <div class="row step2Row">
                           <?php if( get_sub_field('step_arrow_4') ): ?>
-                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="newSections">
                                   <p><?php the_sub_field('step_arrow_4'); ?></p>
                                 </div>
                           </div>
                           <?php endif; ?>
 
-                          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                             <h2 class="blue"><?php the_sub_field('step_4_heading'); ?></h2>
                             <?php the_sub_field('step_4_'); ?>
                           </div>
