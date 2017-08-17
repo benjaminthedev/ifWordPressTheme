@@ -1,10 +1,34 @@
-.page-template-custom-trauma-protection-quote .panel-body img.alignright:nth-child(1) {
-    margin-top: 80px;
+div#responsive-menu-container {
+    z-index: 99999;
 }
 
 .page-template-custom-trauma-protection-quote img.alignright.size-full.wp-image-829.wp-000001 {
-    margin-top: 153px;
+    margin-top: 83px;
 }
+
+.page-template-custom-trauma-protection-quote img.alignright.size-full.wp-image-829.wp-000002 {
+    margin-top: 0px;
+}
+
+.page-template-custom-trauma-protection-quote img.alignright.size-full.wp-image-829.wp-000003 {
+    margin-top: 60px;
+}
+
+.page-template-custom-trauma-protection-quote img.alignright.size-full.wp-image-829.wp-000004 {
+    margin-top: 160px;
+}
+
+
+.feeFoBoxes {
+    margin-top: 130px;
+}
+
+
+
+
+
+
+
 
 .page-template-custom-income-protection-quote img.alignright.size-full.wp-image-829.og {
     margin-top: 40px;
@@ -967,6 +991,10 @@ h4.panel-title {
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none !important;
+}
+
+.newPanelProcess img.mrRight{
+  display: none;
 }
 
 

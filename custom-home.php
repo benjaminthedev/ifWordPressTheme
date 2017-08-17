@@ -355,8 +355,9 @@ Template Name: Home Page
 
               <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                   <!-- <img src="<?php //the_field('image_fifth'); ?>" /> -->
+                <div class="feeFoBoxes">
                   <?php include('fee.php'); ?>
-
+                </div>
               </div>
 
 
