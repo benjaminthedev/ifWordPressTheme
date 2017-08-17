@@ -173,6 +173,10 @@ display: none;
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
 
+  .start-content {
+    height: 85px;
+}
+
 .dark-menu,
 .menu-first-menu-container,
 .menu-second-menu-container {
@@ -809,6 +813,17 @@ body.logged-in .dark-menu.stickyNav {
     background-size: cover;
     background-position: 0px -260px !important;
 }
+}
+
+@media(min-width: 1670px){
+  header.main{
+    /*background-color: green !important;*/
+  }
+
+  .page-template-custom-trauma-protection-quote .white-box-hero.animated.fadeInLeft.newImageAnimate{
+      width:500px;
+  }
+
 }
 
 @media (min-width: 2560px) {

@@ -1,3 +1,9 @@
+#responsive-menu-container #responsive-menu li.responsive-menu-current-item > .responsive-menu-item-link {
+    background-color: #25aae2;
+    color: #ffffff !important;
+    border-color: #212121;
+}
+
 div#responsive-menu-container {
     z-index: 99999;
 }
