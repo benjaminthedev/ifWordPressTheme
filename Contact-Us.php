@@ -10,16 +10,11 @@ Template Name: Contact Us
  <div style="background-image: url('<?php the_field('slider_hero_background_image', 11); ?>');" class="landing-hero"/>
  <div class="container-fluid">
    <div class="row">
-
-
-
-
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 offset-md-1 offset-lg-1 offset-xl-1">
-
             <div class="white-box-hero animated fadeInLeft newImageAnimate">
               <?php the_field('slider_text_box', 11); ?>
 
-              <a href="<?php the_field('slider_button_link'); ?>" class="standard-btn">
+              <a href="<?php the_field('slider_button_link', 11); ?>" class="standard-btn">
                 <?php the_field('slider_text_button', 11); ?>
               </a>
 

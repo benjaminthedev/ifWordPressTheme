@@ -71,9 +71,10 @@ $(".step_one_next").click(function(){
 
 
 $(".step_two_next").click(function(){
-		//console.log('step_one_next');
+		console.log('step_one_next');
     $("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-left, .form-section-two-right, .form-section-two-left-second, .form-section-two-right-second").hide();
-		$(" li#field_3_18, li#field_3_20, .step_three_next, input#gform_submit_button_3, .h-three, .form-section-three-left, .form-section-three-right").show();
+		$(" li#field_3_18, li#field_3_20, li#field_3_21, input#gform_submit_button_3, .h-three, .form-section-one").show();
+		$( "li#field_3_18, li#field_3_20, li#field_3_21, input#gform_submit_button_3" ).wrapAll( "<div class='form-section-one' />");
 		$('.circle.two').removeClass('active');
 		$('.circle.two').addClass('visited');
 
@@ -91,11 +92,15 @@ $( "li#field_3_1, li#field_3_3, li#field_3_19, .step_one_next" ).wrapAll( "<div 
 $( '<h2><span class="blue">About</span> You</h2>' ).insertBefore( "li#field_3_1" );
 
 //Form section two
-$( "li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_15, li#field_3_17, li#field_3_12, li#field_3_13, li#field_3_20, li#field_3_18, .step_two_next" ).wrapAll( "<div class='form-section-two-right' />");
+$( "li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_15, li#field_3_17, li#field_3_12, li#field_3_13, .step_two_next" ).wrapAll( "<div class='form-section-two-right' />");
 $( '<h5>Date of birth</h5>' ).insertBefore( "li#field_3_6" );
 $('li#field_3_6').append('<div class="text-center dobIN">DD</div>');
 $('li#field_3_7').append('<div class="text-center dobIN">MM</div>');
 $('li#field_3_8').append('<div class="text-center dobIN">YYYY</div>');
+
+
+
+
 
 //Form section two
 // $( "li#field_3_15" ).wrapAll( "<div class='form-section-two-right' />");

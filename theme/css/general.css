@@ -1299,6 +1299,7 @@ li#field_3_15,
 li#field_3_17,
 li#field_3_18,
 li#field_3_20,
+li#field_3_21,
 input#gform_submit_button_3,
 .h-two,
 .h-three,
@@ -1321,6 +1322,10 @@ span#input_3_1_6_container label,
 li#field_3_13 label,
 .form-section-two-right {
     display: none;
+}
+
+li#field_3_20 {
+    margin-top: -30px;
 }
 
 .step_one_next{
@@ -1441,7 +1446,7 @@ input#input_3_6, input#input_3_7, input#input_3_8, input#input_3_13, select#inpu
 .step_two_next{
   margin-top: 30px !important;
   width: 100%;
-  background-color: #fe6a18;
+  background-color: #fe6a18 ;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -1458,6 +1463,50 @@ input#input_3_6, input#input_3_7, input#input_3_8, input#input_3_13, select#inpu
   font-weight: 700;
 }
 .step_two_next:hover{
+  opacity: 0.5;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+ul#input_3_20 li input[type=checkbox]{
+  margin-top: 0px !important;
+}
+
+ul#input_3_18 li input[type=radio],
+li#field_3_21 li input[type=radio]{
+  margin-top: 0px !important;
+}
+
+
+
+
+/*Submit button*/
+input#gform_submit_button_3{
+  font-family: 'Roboto', sans-serif !important;
+  margin-top: 30px !important;
+  width: 100%;
+  background-color: #fe6a18  !important;
+  border-color: #fe6a18  !important;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+input#gform_submit_button_3:hover{
   opacity: 0.5;
   color: #fff;
   text-decoration: none;
