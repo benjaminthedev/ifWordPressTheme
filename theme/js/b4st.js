@@ -4,6 +4,8 @@
 
 	$(document).ready(function() {
 
+		//alert("Hey DipShit!");
+
 		//Turd
 		//$("li#field_1_10").insertAfter(".gform_footer");
 		$("footer li.gchoice_1_10_1").insertAfter("footer .gform_footer");
@@ -53,17 +55,18 @@ $('i.fa').toggleClass('yosel');
 
 
 //Fun Forms!!
-
+$( '<h5 class="newHeadinsss">Date of birth</h5>' ).insertAfter( "li#field_3_19" );
 $(".step_one_next").click(function(){
 		console.log('step_one_next');
-    $("li#field_3_1, li#field_3_3, li#field_3_3, li#field_3_19, .step_one_next, .h-one, .form-section-one").hide();
-		$("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_13, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-right").show();
+    $("li#field_3_1, li#field_3_3, li#field_3_3, li#field_3_19, li#field_3_6, li#field_3_7, li#field_3_8, .step_one_next, .h-one, .form-section-one").hide();
+		$(" li#field_3_12, li#field_3_13, li#field_3_15, li#field_3_17, .h-two, .form-section-two-right").show();
 
 		$('.circle.one').removeClass('active');
 		$('.circle.one').addClass('visited');
 		$('.circle.two').addClass('active');
 		$('.twoText').addClass('activeText');
-		$( '<h2 class="heavy"><span class="blue">Basic</span> information</h2>' ).insertBefore( ".form-section-two-right" );
+
+		$( '<h2 class="heavy"><span class="blue">Basic</span> information</h2>' ).insertBefore( "li#field_3_6" );
 
 });
 
@@ -72,9 +75,9 @@ $(".step_one_next").click(function(){
 
 $(".step_two_next").click(function(){
 		console.log('step_one_next');
-    $("li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_12, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-left, .form-section-two-right, .form-section-two-left-second, .form-section-two-right-second").hide();
-		$(" li#field_3_18, li#field_3_20, li#field_3_21, input#gform_submit_button_3, .h-three, .form-section-one").show();
-		$( "li#field_3_18, li#field_3_20, li#field_3_21, input#gform_submit_button_3" ).wrapAll( "<div class='form-section-one' />");
+    $(" li#field_3_12, li#field_3_15, li#field_3_17, .step_two_next, .h-two, .form-section-two-left, .form-section-two-right, .form-section-two-left-second, .form-section-two-right-second").hide();
+		$(" li#field_3_18, li#field_3_20, li#field_3_21, input#gform_submit_button_3, .h-three, .form-section-three").show();
+		$( "li#field_3_18, li#field_3_20, li#field_3_21, input#gform_submit_button_3" ).wrapAll( "<div class='form-section-three' />");
 		$('.circle.two').removeClass('active');
 		$('.circle.two').addClass('visited');
 
@@ -82,18 +85,18 @@ $(".step_two_next").click(function(){
 		$('.circle.three').addClass('visited');
 		$('.threeText').addClass('activeText');
 		$('.heavy').hide();
-		$( '<h2 class="heavyNew"><span class="blue">Pick your</span> insurance</h2>' ).insertBefore( ".form-section-three-left" );
+		$( '<h2 class="heavyNew"><span class="blue">Pick your</span> insurance</h2>' ).insertBefore( "li#field_3_20" );
 
 
 });
 
 //Forms section one
-$( "li#field_3_1, li#field_3_3, li#field_3_19, .step_one_next" ).wrapAll( "<div class='form-section-one' />");
+$( "li#field_3_1, li#field_3_3, li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_19, .step_one_next, .newHeadinsss" ).wrapAll( "<div class='form-section-one' />");
 $( '<h2><span class="blue">About</span> You</h2>' ).insertBefore( "li#field_3_1" );
 
 //Form section two
-$( "li#field_3_6, li#field_3_7, li#field_3_8, li#field_3_15, li#field_3_17, li#field_3_12, li#field_3_13, .step_two_next" ).wrapAll( "<div class='form-section-two-right' />");
-$( '<h5>Date of birth</h5>' ).insertBefore( "li#field_3_6" );
+$( "li#field_3_15, li#field_3_17, li#field_3_12, li#field_3_13, .step_two_next" ).wrapAll( "<div class='form-section-two-right' />");
+
 $('li#field_3_6').append('<div class="text-center dobIN">DD</div>');
 $('li#field_3_7').append('<div class="text-center dobIN">MM</div>');
 $('li#field_3_8').append('<div class="text-center dobIN">YYYY</div>');
@@ -176,6 +179,60 @@ function getCurrentScroll() {
 // 			$(".bp-phone").removeClass("stickyNumber");
 // 			$("img.telephoneIconHeader").removeClass("stickyImg");
 // 	}
+
+
+
+//Form validation Crap
+
+/*
+
+
+
+if form has been filled out
+else grey out button / unable to click
+
+$('input#input_3_1_3').keyup(function () {
+ // $('input#input_3_1_3').text($(this).val());
+ $('.step_one_next').addClass("dedewwwww");
+});
+
+*/
+
+$( '<h5>* All fields required</h5>' ).insertAfter( ".partial_entry_warning" );
+
+
+// input#input_3_1_3, input#input_3_1_6, input#input_3_3,
+$(' input#input_3_8 ').on('keyup keydown keypress change paste', function() {
+  if ($(this).val() == '') {
+    $('.step_one_next').removeClass('okay').addClass('not-okay');
+  } else {
+    $('.step_one_next').addClass('okay').removeClass('not-okay');
+		$('.step_one_next').show();
+  }
+});
+
+
+$(' input#input_3_13').on('keyup keydown keypress change paste', function() {
+  if ($(this).val() == '') {
+    $('.step_two_next').removeClass('okay').addClass('not-okay');
+  } else {
+    $('.step_two_next').addClass('okay').removeClass('not-okay');
+		$('.step_two_next').show();
+  }
+});
+
+
+$(' input#choice_3_21_0').on('keyup keydown keypress change paste', function() {
+  if ($(this).val() == '') {
+    //$('.step_two_next').removeClass('okay').addClass('not-okay');
+		console.log("nono");
+  } else {
+    //$('.step_two_next').addClass('okay').removeClass('not-okay');
+		//$('.step_two_next').show();
+		console.log("dede");
+  }
+});
+
 
 
 

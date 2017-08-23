@@ -813,6 +813,18 @@ body.logged-in .dark-menu.stickyNav {
     background-size: cover;
     background-position: 0px -260px !important;
 }
+
+img.man-hero {
+    margin-left: 445px;
+    width: 48%;
+    margin-top: 110px;
+}
+
+img.man-hero-left {
+    margin-left: -42px;
+    width: 50%;
+    margin-top: 90px;
+}
 }
 
 @media(min-width: 1670px){
@@ -823,6 +835,33 @@ body.logged-in .dark-menu.stickyNav {
   .page-template-custom-trauma-protection-quote .white-box-hero.animated.fadeInLeft.newImageAnimate{
       width:500px;
   }
+
+  img.man-hero {
+      margin-left: 445px;
+      width: 48%;
+      margin-top: 110px;
+  }
+
+  img.man-hero-left {
+      margin-left: -42px;
+      width: 50%;
+      margin-top: 90px;
+  }
+
+.page-template-custom-disablement-insurance-quote .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2,
+.page-template-custom-income-protection-quote .white-box-hero.animated.fadeInLeft.newImageAnimate {
+    height: 510px;
+    flex: 0 0 40%;
+    max-width: 20%;
+    padding: 50px 60px;
+}
+
+.page-template-custom-home .white-box-hero {
+    width: 510px;
+    margin-left: 480px;
+}
+
+
 
 }
 
@@ -859,6 +898,7 @@ div#feefologohere {
 background-position: 0% 0%;
 }
 
+.page-template-custom-income-protection-quote .white-box-hero.animated.fadeInLeft.newImageAnimate,
 .page-template-custom-disablement-insurance-quote .white-box-hero.col-sm-4.col-md-4.col-lg-4.col-xl-4.offset-md-2.offset-lg-2 {
 height: 510px;
 flex: 0 0 40%;
@@ -909,5 +949,16 @@ margin-left: 310px;
   background-position: 0px -580px !important;
 }
 
+img.man-hero {
+    margin-left: 445px;
+    width: 48%;
+    margin-top: 110px;
+}
+
+img.man-hero-left {
+    margin-left: -42px;
+    width: 50%;
+    margin-top: 90px;
+}
 
 }

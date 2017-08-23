@@ -88,7 +88,7 @@ input#gform_submit_button_5 {
 }
 
 .start-content {
-    height:174px;
+    height:135px;
 }
 
 .page-template-full-quotation .footer-section-one{
@@ -259,8 +259,10 @@ a.telephone-number-new-footer {
 
 /*First Menu*/
 .menu-first-menu-container {
-    margin-left: -40px;
-    float: left;
+    /*margin-left: -40px;
+    float: left;*/
+
+    display: none;
 }
 
 ul#menu-main-navigation li a{
@@ -288,8 +290,9 @@ ul#menu-first-menu li a{
 
 /*Second Menu*/
 .menu-second-menu-container {
-    float: right;
+    /*float: right;*/
     /*margin-top: 15px;*/
+    display: none;
 }
 
 ul#menu-second-menu li a{
@@ -756,7 +759,7 @@ a.nav-link.fourths.active{
 /*Stick Navs*/
 header.main {
     background-color: #fff;
-    height: 175px;
+    height: 135px;
     position: fixed;
     width: 100%;
     z-index: 99999;
@@ -769,7 +772,7 @@ header.main {
 
 header.main.shrink {
     /*height: 142px;*/
-    height: 160px;
+    height: 123px;
 
 }
 
@@ -1319,13 +1322,29 @@ li#field_3_3 label,
 li#field_3_19 label,
 span#input_3_1_3_container label,
 span#input_3_1_6_container label,
-li#field_3_13 label,
 .form-section-two-right {
     display: none;
 }
 
-li#field_3_20 {
-    margin-top: -30px;
+h5.newHeadinsss {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+.form-section-two-right label.gfield_label {
+    display: -moz-inline-stack;
+    display: initial;
+    line-height: 1.3;
+    float: left !important;
+    margin-top: 10px !important;
+    margin-right: 20px !important;
+    width: 28% !important;
+}
+
+.step_one_next,
+.step_two_next{
+  display: none;
 }
 
 .step_one_next{
@@ -1442,6 +1461,12 @@ input#input_3_6, input#input_3_7, input#input_3_8, input#input_3_13, select#inpu
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+select#input_3_12,
+input#input_3_13{
+  width: 63%;}
+
 /*next button*/
 .step_two_next{
   margin-top: 30px !important;
@@ -1469,8 +1494,6 @@ input#input_3_6, input#input_3_7, input#input_3_8, input#input_3_13, select#inpu
   cursor: pointer;
 }
 
-
-
 ul#input_3_20 li input[type=checkbox]{
   margin-top: 0px !important;
 }
@@ -1479,9 +1502,6 @@ ul#input_3_18 li input[type=radio],
 li#field_3_21 li input[type=radio]{
   margin-top: 0px !important;
 }
-
-
-
 
 /*Submit button*/
 input#gform_submit_button_3{
@@ -1590,6 +1610,11 @@ select#input_3_12 {
 
 
 /*Third stage of the form*/
+
+.form-section-three {
+    background-color: #f0f0f0;
+    padding: 30px;
+}
 
 /*input#choice_3_20_1,
 input#choice_3_20_2,
