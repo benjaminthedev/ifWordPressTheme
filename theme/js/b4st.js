@@ -180,24 +180,6 @@ function getCurrentScroll() {
 // 			$("img.telephoneIconHeader").removeClass("stickyImg");
 // 	}
 
-
-
-//Form validation Crap
-
-/*
-
-
-
-if form has been filled out
-else grey out button / unable to click
-
-$('input#input_3_1_3').keyup(function () {
- // $('input#input_3_1_3').text($(this).val());
- $('.step_one_next').addClass("dedewwwww");
-});
-
-*/
-
 $( '<h5>* All fields required</h5>' ).insertAfter( ".partial_entry_warning" );
 
 
@@ -222,16 +204,6 @@ $(' input#input_3_13').on('keyup keydown keypress change paste', function() {
 });
 
 
-$(' input#choice_3_21_0').on('keyup keydown keypress change paste', function() {
-  if ($(this).val() == '') {
-    //$('.step_two_next').removeClass('okay').addClass('not-okay');
-		console.log("nono");
-  } else {
-    //$('.step_two_next').addClass('okay').removeClass('not-okay');
-		//$('.step_two_next').show();
-		console.log("dede");
-  }
-});
 
 
 
